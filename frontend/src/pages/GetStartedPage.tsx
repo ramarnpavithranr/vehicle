@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import {
-  Radio, ArrowRight, CheckCircle2, Sparkles, Zap,
+  Radio, ArrowRight, CheckCircle2, Zap,
   ChevronRight, ArrowLeft, Activity, User, Car,
   MapPin, Shield
 } from 'lucide-react';

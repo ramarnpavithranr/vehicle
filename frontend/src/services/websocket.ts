@@ -18,9 +18,10 @@ class WebSocketClient {
       return;
     }
 
+    const envWs = import.meta.env.VITE_WS_URL as string;
     const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
     const host = window.location.port === '5173' ? '127.0.0.1:8000' : window.location.host;
-    const wsUrl = `${protocol}//${host}/ws/v2v`;
+    const wsUrl = envWs || `${protocol}//${host}/ws/v2v`;
 
     this.setStatus('reconnecting');
 

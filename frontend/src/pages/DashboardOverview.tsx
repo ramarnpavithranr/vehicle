@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { 
   AlertTriangle, ShieldCheck, Car, HeartPulse, 
-  Plus, Camera, ArrowUpRight, Zap, Activity, Clock
+  Plus, Camera, ArrowUpRight, Zap, Activity
 } from 'lucide-react';
 import { 
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, 
